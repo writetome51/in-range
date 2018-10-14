@@ -1,0 +1,21 @@
+{
+  "name": "@writetome51/in-range",
+  "version": "1.0.0",
+  "description": "Checks if a given number is within a given range and returns boolean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "math",
+    "numbers",
+    "range",
+    "ranges"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "basic-data-handling": "latest"
+  }
+}
