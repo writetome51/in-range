@@ -1,13 +1,27 @@
-Checks if a given number is within a given range.  
-First arg is the range array, which holds 2 numbers:  the lowest possible number and the highest.
-Second arg is the number you're checking.
+#  inRange(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;range: [number, number], <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num<br>): boolean
 
-inRange(range: [min, max], numberToCheck); // returns boolean
+Checks if `num` is within `range`.   
+`range` holds 2 numbers:  [min,  max]
 
-Examples:
 
-inRange([2.5, 8.5], 9.5);  // returns false
+## Examples:
+```
+inRange([2.5, 8.5], 8.6); // --> false
 
-inRange([0, 200], 100); // returns true
+inRange([0, 200], 100); // --> true
 
-inRange([-10, 0], 10); // returns false
+inRange([-10, 0], -10); // --> true
+
+inRange([-10, 0], -11); // --> false
+```
+
+## Installation
+`npm i  @writetome51/in-range`
+
+## Loading
+```
+// if using TypeScript:
+import { inRange} from '@writetome51/in-range'; 
+// if using ES5 JavaScript:
+var inRange = require('@writetome51/in-range').inRange;
+```

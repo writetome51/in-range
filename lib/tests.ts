@@ -1,4 +1,4 @@
-import { inRange } from './inRange';
+import { inRange } from './index';
 
 
 // Test 1

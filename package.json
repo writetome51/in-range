@@ -1,10 +1,11 @@
 {
   "name": "@writetome51/in-range",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Checks if a given number is within a given range and returns boolean",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [
     "math",
@@ -14,8 +15,8 @@
   ],
   "author": "Steve Thompson",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/writetome51/in-range#readme",
   "dependencies": {
-    "basic-data-handling": "~1.0.13"
+    "basic-data-handling": "~1.0.15"
   }
 }
