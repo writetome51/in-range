@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var errorIfNotNumber_1 = require("basic-data-handling/errorIfNotNumber");
+var error_if_not_finite_number_1 = require("error-if-not-finite-number");
 function inRange(range, num) {
     if (range.length !== 2) {
         throw new Error("The range array must have exactly 2 numbers");
@@ -15,7 +15,7 @@ function inRange(range, num) {
         var args = range.concat([num]);
         var i = -1;
         while (++i < args.length)
-            errorIfNotNumber_1.errorIfNotNumber(args[i]);
+            error_if_not_finite_number_1.errorIfNotFiniteNumber(args[i]);
     }
 }
 exports.inRange = inRange;

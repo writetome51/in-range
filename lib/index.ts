@@ -1,4 +1,4 @@
-import { errorIfNotNumber } from 'basic-data-handling/errorIfNotNumber';
+import { errorIfNotFiniteNumber } from 'error-if-not-finite-number';
 
 
 export function inRange(range: [number, number], num): boolean {
@@ -17,6 +17,6 @@ export function inRange(range: [number, number], num): boolean {
 	function errorIfAnyArgumentIsNotNumber() {
 		let args = range.concat([num]);
 		let i = -1;
-		while (++i < args.length) errorIfNotNumber(args[i]);
+		while (++i < args.length) errorIfNotFiniteNumber(args[i]);
 	}
 }
