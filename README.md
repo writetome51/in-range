@@ -5,7 +5,7 @@ Checks if `num` is within `range`.
 
 
 ## Examples:
-```
+```js
 inRange([2.5, 8.5], 8.6); // --> false
 
 inRange([0, 200], 100); // --> true
@@ -19,9 +19,6 @@ inRange([-10, 0], -11); // --> false
 `npm i  @writetome51/in-range`
 
 ## Loading
-```
-// if using TypeScript:
-import { inRange} from '@writetome51/in-range'; 
-// if using ES5 JavaScript:
-var inRange = require('@writetome51/in-range').inRange;
+```js
+import { inRange} from '@writetome51/in-range';
 ```
