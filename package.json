@@ -17,6 +17,6 @@
   "license": "MIT",
   "homepage": "https://github.com/writetome51/in-range#readme",
   "dependencies": {
-    "error-if-not-finite-number": "~1.0.0"
+    "error-if-not-finite-number": "^2.0.0"
   }
 }
