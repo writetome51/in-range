@@ -1,4 +1,4 @@
-import { inRange } from 'index';
+import { inRange } from './index.js';
 // Test 1
 if (inRange([1, 10], 0))
     console.log('test 1 failed');

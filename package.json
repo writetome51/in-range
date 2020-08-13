@@ -1,9 +1,10 @@
 {
   "name": "@writetome51/in-range",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Checks if a given number is within a given range and returns boolean",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "math",
     "numbers",
