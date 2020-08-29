@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/in-range",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Checks if a given number is within a given range and returns boolean",
   "type": "module",
   "main": "index.js",
@@ -15,6 +15,5 @@
   "license": "MIT",
   "homepage": "https://github.com/writetome51/in-range#readme",
   "dependencies": {
-    "error-if-not-finite-number": "^2.0.0"
   }
 }
