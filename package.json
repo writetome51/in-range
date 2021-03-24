@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/in-range",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Checks if a given number is within a given range and returns boolean",
   "type": "module",
   "main": "index.js",

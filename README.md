@@ -1,6 +1,7 @@
 #  inRange(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[min, max], <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num<br>): boolean
 
 Checks if `num` is within range of  `[min,  max]`.   
+`min`,`max`, and `num` must all be type "number".
 
 
 ## Examples:
@@ -13,11 +14,10 @@ inRange([-10, 0], -10); // --> true
 
 inRange([-10, 0], -11); // --> false
 
-// Be careful if the numbers are strings.
-// This triggers error because in string comparison '20' is greater than '100'
-inRange(['20', '100'], 1);
-// "Error: In the range array, the first number must be less than or 
-// equal to the second number"
+// The numbers cannot be strings, because this gives unpredictable results.
+// For instance, in string comparison, '30' is greater than both '20' and '100'
+inRange(['20', '100'], '30');
+// 'Error: Input must be of type "number"'
 
 ```
 
